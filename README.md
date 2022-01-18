@@ -1,9 +1,8 @@
 ### Table of Contents
 - [1. Project Background](#project-background)
-- [2. File Descriptions](#file-descriptions)
-- [3. Installations](#installations)
-- [4. Program Instructions](#program-instructions)
-- [5. Acknowledgements](#acknowledgements)
+- [2. Installations](#installations)
+- [3. Program Instructions](#program-instructions)
+- [4. Acknowledgements](#acknowledgements)
 
 ## Project Background
 This project aims to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
@@ -11,21 +10,20 @@ Using a data set containing real messages that were sent during disaster events,
 
 This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
-## File Descriptions
-
-
 ## Installations
 Standard libraries from Anaconda distribution of Python used to run the code as listed below:
 * Pandas
 * Numpy
 * sys-module
 * re
+* json
+* joblib
 
 Additional libraries that requires installations:
-* [NLTK]()
-* [SQLalchemy]()
-* [Flask]()
-* [Plotly]()
+* [NLTK](https://www.nltk.org)
+* [SQLalchemy](https://www.sqlalchemy.org)
+* [Flask](https://flask.palletsprojects.com/en/2.0.x)
+* [Plotly](https://plotly.com/python/getting-started)
 
 ## Program Instructions
 1. Run the following commands in the project's root directory to set up your database and model.
