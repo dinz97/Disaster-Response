@@ -1,8 +1,8 @@
 ### Table of Contents
 - [1. Project Background](#project-background)
 - [2. File Descriptions](#file-descriptions)
-- [3. Installation](#installation)
-- [4. Program Instructions](#program-execution)
+- [3. Installations](#installations)
+- [4. Program Instructions](#program-instructions)
 - [5. Acknowledgements](#acknowledgements)
 
 ## Project Background
@@ -12,9 +12,7 @@ Using a data set containing real messages that were sent during disaster events,
 This project includes a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data.
 
 ## File Descriptions
-There are 2 data file and 1 Jupyter notebook available to showcase work related to the above questions.
-* Wellbeing_and_lifestyle_data_Kaggle.csv: This dataset contains 15,977 survey responses with 24 attributes describing how respondents live their lives.
-* Lifestyle&DailyStressLevel: Jupyter Notebook to prepare data and perform analysis.
+
 
 ## Installations
 Standard libraries from Anaconda distribution of Python used to run the code as listed below:
