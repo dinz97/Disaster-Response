@@ -82,7 +82,7 @@ def save_data(df, database_filepath):
     # SQL database
     database_filename = database_filepath.split('/')[1]
     database_filename = database_filename.replace('.db', '')
-    df.to_sql(database_filename, engine, index=False)
+    df.to_sql(database_filename, engine, index=False, if_exist='replace')
 
 
 
